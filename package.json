@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "kafka-node": "^5.0.0",
+    "kafkajs": "^2.2.4"
+  },
+  "name": "kafka-project",
+  "description": "This project demonstrates a simple event-driven microservice using Apache Kafka. The producer publishes food orders to a Kafka topic, and the consumer processes these orders in real-time.",
+  "version": "1.0.0",
+  "main": "consumer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
